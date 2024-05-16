@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CRUD App - Create Item</title>
+</head>
+<body>
+  <h1>Create New Item</h1>
+  <form method="post" action="/create">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" required></textarea>
+    <br>
+    <input type="submit" value="Create">
+  </form>
+  <a href="/">Back to Items List</a>
+</body>
+</html>
